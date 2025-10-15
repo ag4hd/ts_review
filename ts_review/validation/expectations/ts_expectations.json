@@ -1,0 +1,12 @@
+{
+  "dataset_name": "reviews_raw",
+  "primary_key": ["review_id"],
+  "expectations": [
+    {"column": "review_id", "rules": {"not_null": true, "unique": true}},
+    {"column": "review_rating", "rules": {"type": "integer", "allowed_values": [1,2,3,4,5]}},
+    {"column": "review_date", "rules": {"type": "date", "max_date": "today"}},
+    {"column": "email_address", "rules": {"regex": "^[\\w.%+-]+@[\\w.-]+\\.[A-Za-z]{2,}$"}},
+    {"column": "review_ip_address", "rules": {"regex": "^\\d{1,3}(\\.\\d{1,3}){3}$"}},
+    {"column": "review_content", "rules": {"min_length": 5}}
+  ]
+}
