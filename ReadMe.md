@@ -58,7 +58,7 @@ Install dependencies
     poetry run pytest tests/test_integration_main.py -v
 
   * To run the api server FastAPI
-    poetry run uvicorn ts_review.api_server:app --reload --port 8000
+    `poetry run uvicorn ts_review.api_server:app --reload --port 8000`
     you will see something like `Uvicorn running on http://127.0.0.1:8000`
     * To test the api endpoint
     * Open a browser and navigate to http://127.0.0.1:8000/docs
