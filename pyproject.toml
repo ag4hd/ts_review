@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ts-review"
+version = "0.1.0"
+description = ""
+authors = ["agaikwad03 <ashish.gaikwad@itv.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+delta-spark = "3.2.0"
+pyspark = "3.5.1"
+pytest = "^8.4.2"
+config = "^0.5.1"
+fastapi = "^0.119.0"
+uvicorn = "^0.37.0"
+pandas = "^2.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
