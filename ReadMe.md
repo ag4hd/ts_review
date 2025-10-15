@@ -80,6 +80,8 @@ Install dependencies
     curl -o reviews.csv \
     "http://127.0.0.1:8000/reviews?role=legal"
 
+<img width="1820" height="364" alt="image" src="https://github.com/user-attachments/assets/31f8066a-b956-4dfc-b131-df6ecd1ddd2f" />
+
 
 
   * For role based data access with only selected columns only visible like masking of email address, name, ip address
